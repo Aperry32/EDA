@@ -44,9 +44,6 @@ plt.figure(figsize=(10, 8))  # Adjust width and height for readability
 sns.heatmap(corr, annot=True, cmap='coolwarm', fmt='.2f', vmin=-1, vmax=1)
 plt.show()
 
-#checking pairplot for outliers and overall health
-sns.pairplot(home_df)
-plt.show()
 
 
 

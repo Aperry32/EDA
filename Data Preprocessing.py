@@ -21,8 +21,8 @@ home_df = home_df.dropna()
 #home_df.info()
 
 #checking histogram & pairplot for outliers and overall health
-#sns.pairplot(home_df)
-#plt.show()
+sns.pairplot(home_df)
+plt.show()
 
 #dropping feature HOA
 home_df = home_df.drop(['HOA'], axis=1)
